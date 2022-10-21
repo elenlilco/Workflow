@@ -1,6 +1,6 @@
-git clone https://github.com/elenlilco/GrooveTg /root/hubel
-cp PR/.env /root/hubel/.env
-cd /root/hubel
+git clone https://github.com/elenlilco/GrooveTG /root/hflow
+cp CREDS/.env /root/hflow/.env
+cd /root/hflow
 pip install -U -r requirements.txt
 sudo bash install_node.sh
 sudo bash install_ffmpeg.sh
